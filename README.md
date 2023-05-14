@@ -1,4 +1,4 @@
-# Py-PDF-Viewer
+# NT-PDF-Viewer
 Simple PDF viewer based on Python and tkPDFViewer0.1.
 You can easily open and view PDF files,
 
