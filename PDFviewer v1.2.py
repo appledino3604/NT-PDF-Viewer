@@ -10,7 +10,7 @@ import fitz
 window=Tk()
 window.title("PDF viewer")
 window.geometry("941x516")
-# window.iconbitmap(r"C:\Users\Atharva\Downloads\PDFlogo.ico")
+window.iconbitmap("icon.ico)
 
 defaultzoom=72
 
@@ -43,8 +43,6 @@ status_sep.pack(side=BOTTOM, fill="x")
 
 stats = [0,0,0]
 inputfile_state=[False]
-# replace  with sys.argv
-# sys.argv=["",r"C:\Users\Atharva\Documents\demon_slayer.pdf"]
 if len(sys.argv)==2:
     
     if sys.argv[1].endswith(".pdf"):
